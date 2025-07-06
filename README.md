@@ -23,7 +23,7 @@ Incredibly basic Python shutdown many for Linux on cross-platform distros and WM
 
 ### 3. Add to your config to run it. For i3wm, put this in `~/.config/i3/config`:
    ```
-   bindsym $mod+Shift+e exec ~/pydown.py
+   bindsym $mod+Shift+e exec python3 ~/pydown.py
    ```
    (change the key or path if you want)
 
