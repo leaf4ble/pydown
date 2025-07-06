@@ -29,5 +29,9 @@ Incredibly basic Python shutdown many for Linux on cross-platform distros and WM
 
 That’s it.
 
+# Current Issues
+Locking feature is only implemented for i3wm, as well as the usage for `i3-msg`.
+
+
 # Contributing
 Pull requests are welcome.
