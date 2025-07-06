@@ -15,10 +15,15 @@ Incredibly basic Python shutdown many for Linux on cross-platform distros and WM
    ```bash
    chmod +x pydown.py
    ```
+### 2.1. Move the file from downloads to home
+
+   ```
+   mv pydown.py ~/pydown.py
+   ```
 
 ### 3. Add to your config to run it. For i3wm, put this in `~/.config/i3/config`:
    ```
-   bindsym $mod+Shift+e exec /home/zyph/pydown.py
+   bindsym $mod+Shift+e exec ~/pydown.py
    ```
    (change the key or path if you want)
 
