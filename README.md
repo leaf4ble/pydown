@@ -1,5 +1,5 @@
 # pydown
-Incredibly basic Python shutdown many for Linux on cross-platform distros and WM's.
+Incredibly basic Python shutdown many for Linux on cross-platform distros and i3.
 
 ## Installation Shutdown Menu Setup
 
