@@ -1,5 +1,6 @@
 # pydown
 Incredibly basic Python shutdown many for Linux on cross-platform distros and i3.
+# [Download](https://github.com/leaf4ble/pydown/releases/download/untagged-ff106f207a5f0fed3df2/pydown.py)
 
 ## Installation Shutdown Menu Setup
 
