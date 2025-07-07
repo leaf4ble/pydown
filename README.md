@@ -18,7 +18,7 @@ You may also need python, a bunch of distros come preinstalled with python anywa
 
 # 0.1. Download the file and locate it.
 
-### 1. Open a terminal and go to the folder with `shutdown_menu.py`:
+### 1. Open a terminal and go to the folder with `pydown.py`:
    ```bash
    cd ~/Downloads/
    ```
@@ -26,12 +26,12 @@ You may also need python, a bunch of distros come preinstalled with python anywa
 
 ### 2. Make it executable:
    ```bash
-   chmod +x shutdown_menu.py
+   chmod +x pydown.py
    ```
 ### 2.1. Move the file from downloads to home
 
    ```
-   mv shutdown_menu.py ~/shutdown_menu.py
+   mv pydown.py ~/pydown.py
    ```
 
 ### 3. Add to your config to run it. For i3wm, put this in `~/.config/i3/config`:
@@ -43,13 +43,13 @@ You may also need python, a bunch of distros come preinstalled with python anywa
 
 ### 4. Or just run it from terminal:
    ```bash
-   ./shutdown_menu.py
+   ./pydown.py
    ```
 
 That’s it.
 
 # Current Issues
-Locking feature is only implemented for i3wm, as well as the usage for `i3-msg`.
+Locking feature is only implemented for i3wm, as well as the usage for `i3-msg`. Universal release would be nice.
 
 Status: Works on Arch. No other distros have been tested, but it is python and should universally work.
 
