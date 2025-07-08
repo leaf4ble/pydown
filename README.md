@@ -7,6 +7,9 @@ Incredibly basic Python shutdown many for Linux on cross-platform distros and i3
 # 0. Download alacritty
 
    ```bash
+
+   Note: You might need to elevate your privileges using `doas`, `sudo`, `su` or logging in as `root` 
+   
    Debian/Ubuntu: apt install alacritty
    Arch: pacman -Syyu alacritty
    openSUSE: zypper install alacritty
